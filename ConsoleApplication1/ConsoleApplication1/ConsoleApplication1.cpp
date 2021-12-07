@@ -145,6 +145,7 @@ int main()
             std::cout << std::endl;
             cout << "Archivo Firmado";
             std::cout << std::endl;
+            std::cout << 
             crypto_sign_keypair(pk, sk);
         }
         else if (option == 5) {         
